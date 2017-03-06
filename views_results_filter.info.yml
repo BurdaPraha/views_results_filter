@@ -1,0 +1,8 @@
+name: Views results filter
+type: module
+description: Provides views results filter for node IDs.
+package: custom
+version: 8.x-1.1
+core: 8.x
+dependencies:
+  - views
