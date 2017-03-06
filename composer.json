@@ -1,5 +1,5 @@
 {
-  "name": "drupal/views_results_filter",
+  "name": "burdapraha/views_results_filter",
   "type": "drupal-module",
   "description": "Provides Drupal views results filter.",
   "keywords": ["Drupal"]
