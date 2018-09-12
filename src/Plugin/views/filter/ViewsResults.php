@@ -82,6 +82,9 @@ class ViewsResults extends FilterPluginBase {
    */
   protected function getNids() {
     // Reload view to avoid cache issues.
+    // Be warned, this only works if view returns exactly the same results in the same order!
+    // If the sort createria are ambicious, duplicates are shown, in which case it's necessarry to add another
+    // sort createria
     $view = Views::getView($this->view->id());
     $nids = [];
     $view->setDisplay($this->options['display']);
